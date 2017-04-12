@@ -8,6 +8,7 @@ App::uses('Component', 'Controller');
 class CsvComponent extends Component {
 
     public $Error = false;
+    public $CountRows = 0;
 
 /**
  * checkCsv
